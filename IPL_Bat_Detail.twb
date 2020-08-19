@@ -1,0 +1,2913 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20194.19.1010.1202                               -->
+<workbook original-version='18.1' source-build='2019.4.0 (20194.19.1010.1202)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <SheetIdentifierTracking ignorable='true' predowngraded='true' />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Sheet1 (IPL_Ball_by_Ball)' inline='true' name='federated.14dhc621g5umht1a58ypb1s5ygc5' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='IPL_Ball_by_Ball' name='excel-direct.13jk9p70mlqmwu1gfmexv0uxxefn'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/ckaln/Downloads/IPL_Ball_by_Ball.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.13jk9p70mlqmwu1gfmexv0uxxefn' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:W10001:no:A1:W10001:0' header='yes' outcome='6'>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='integer' name='Match_Id' ordinal='1' />
+            <column datatype='integer' name='Over_Id' ordinal='2' />
+            <column datatype='integer' name='Ball_Id' ordinal='3' />
+            <column datatype='integer' name='Innings_No' ordinal='4' />
+            <column datatype='integer' name='Team_Batting' ordinal='5' />
+            <column datatype='integer' name='Team_Bowling' ordinal='6' />
+            <column datatype='integer' name='Striker_Batting_Position' ordinal='7' />
+            <column datatype='integer' name='Striker' ordinal='8' />
+            <column datatype='integer' name='Non_Striker' ordinal='9' />
+            <column datatype='integer' name='Bowler' ordinal='10' />
+            <column datatype='integer' name='Extra_Type_Id' ordinal='11' />
+            <column datatype='integer' name='Extra_Runs' ordinal='12' />
+            <column datatype='string' name='Extra_Name' ordinal='13' />
+            <column datatype='integer' name='Runs_Scored' ordinal='14' />
+            <column datatype='integer' name='Player_Out' ordinal='15' />
+            <column datatype='integer' name='Kind_Out' ordinal='16' />
+            <column datatype='integer' name='Fielders' ordinal='17' />
+            <column datatype='string' name='Out_Name' ordinal='18' />
+            <column datatype='string' name='Player_Name' ordinal='19' />
+            <column datatype='integer' name='Batting_hand' ordinal='20' />
+            <column datatype='string' name='Batting_hand 1' ordinal='21' />
+            <column datatype='string' name='Team_Name' ordinal='22' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Match_Id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Match_Id]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Match_Id</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Over_Id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Over_Id]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Over_Id</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ball_Id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Ball_Id]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Ball_Id</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Innings_No</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Innings_No]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Innings_No</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Team_Batting</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Team_Batting]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Team_Batting</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Team_Bowling</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Team_Bowling]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Team_Bowling</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Striker_Batting_Position</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Striker_Batting_Position]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Striker_Batting_Position</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Striker</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Striker]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Striker</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Non_Striker</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Non_Striker]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Non_Striker</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Bowler</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Bowler]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Bowler</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Extra_Type_Id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Extra_Type_Id]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Extra_Type_Id</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Extra_Runs</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Extra_Runs]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Extra_Runs</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Extra_Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Extra_Name]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Extra_Name</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Runs_Scored</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Runs_Scored]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Runs_Scored</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Player_Out</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Player_Out]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Player_Out</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Kind_Out</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Kind_Out]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Kind_Out</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fielders</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Fielders]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Fielders</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Out_Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Out_Name]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Out_Name</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Player_Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Player_Name]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Player_Name</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Batting_hand</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Batting_hand]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Batting_hand</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Batting_hand 1</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Batting_hand 1]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Batting_hand 1</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Team_Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Team_Name]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Team_Name</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:W10001:no:A1:W10001:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Ball Id' datatype='integer' name='[Ball_Id]' role='dimension' type='ordinal' />
+      <column caption='Batting hand 1' datatype='string' name='[Batting_hand 1]' role='dimension' type='nominal' />
+      <column caption='Batting hand' datatype='integer' name='[Batting_hand]' role='measure' type='quantitative' />
+      <column caption='Extra Name' datatype='string' name='[Extra_Name]' role='dimension' type='nominal' />
+      <column caption='Extra Runs' datatype='integer' name='[Extra_Runs]' role='measure' type='quantitative' />
+      <column caption='Extra Type Id' datatype='integer' name='[Extra_Type_Id]' role='dimension' type='ordinal' />
+      <column caption='Innings No' datatype='integer' name='[Innings_No]' role='measure' type='quantitative' />
+      <column caption='Kind Out' datatype='integer' name='[Kind_Out]' role='measure' type='quantitative' />
+      <column caption='Match Id' datatype='integer' name='[Match_Id]' role='dimension' type='ordinal' />
+      <column caption='Non Striker' datatype='integer' name='[Non_Striker]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Out Name' datatype='string' name='[Out_Name]' role='dimension' type='nominal' />
+      <column caption='Over Id' datatype='integer' name='[Over_Id]' role='dimension' type='ordinal' />
+      <column caption='Player Name' datatype='string' name='[Player_Name]' role='dimension' type='nominal' />
+      <column caption='Player Out' datatype='integer' name='[Player_Out]' role='measure' type='quantitative' />
+      <column caption='Runs Scored' datatype='integer' name='[Runs_Scored]' role='measure' type='quantitative' />
+      <column caption='Striker Batting Position' datatype='integer' name='[Striker_Batting_Position]' role='measure' type='quantitative' />
+      <column caption='Team Batting' datatype='integer' name='[Team_Batting]' role='measure' type='quantitative' />
+      <column caption='Team Bowling' datatype='integer' name='[Team_Bowling]' role='measure' type='quantitative' />
+      <column caption='Team Name' datatype='string' name='[Team_Name]' role='dimension' type='nominal' />
+      <column-instance column='[Player_Name]' derivation='None' name='[none:Player_Name:nk]' pivot='key' type='nominal' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.392857' measure-ordering='alphabetic' measure-percentage='0.607143' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Player_Name:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;A Mishra&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;AD Mathews&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;AT Rayudu&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;BMAJ Mendis&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;D du Preez&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;DNT Zoysa&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;GD McGrath&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;IR Jaggi&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;JM Kemp&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;KK Nair&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;M de Lange&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;MEK Hussey&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;MR Marsh&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;P Kumar&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;R Bhatia&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;RN ten Doeschate&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;S Kaul&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;SB Joshi&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;SM Pollock&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;SW Tait&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;V Pratap Singh&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;YK Pathan&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;AB de Villiers&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;AB Dinda&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Ankit Sharma&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;BB Samantray&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;CJ Jordan&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;DJ Harris&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;ER Dwivedi&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;HM Amla&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;JD Unadkat&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Karanveer Singh&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;LA Carseldine&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;MA Khote&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;MM Sharma&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;NL McCullum&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;PM Sarvesh Kumar&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;RA Jadeja&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;RV Gomez&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;SA Abbott&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Shoaib Malik&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;SS Shaikh&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;TR Birt&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;WP Saha&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;AC Gilchrist&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;AP Tare&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Bipul Sharma&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;CL White&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;DJ Muthuswami&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;FY Fazal&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;IC Pandey&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;JEC Franklin&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;KD Karthik&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;LPC Silva&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;MC Henriques&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Mohammad Asif&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;MS Dhoni&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;NV Ojha&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;PSP Handscomb&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;RR Sarwan&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;S Badrinath&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Salman Butt&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;SK Warne&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Sunny Gupta&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Umar Gul&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Y Nagar&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;G Gambhir&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;A Nehra&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;A Zampa&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;AG Paunikar&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;B Chipli&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;C Nanda&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;DA Miller&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;GR Napier&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;J Suchith&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;JP Faulkner&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;KP Appanna&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;M Manhas&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;MJ Clarke&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;MS Wade&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;PA Patel&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;R McLaren&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;RR Powar&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;S Narwal&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;SD Chitnis&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Sohail Tanvir&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;T Taibu&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;VRV Singh&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;YV Takawale&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;A Mithun&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;AD Nath&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;AUK Pathan&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;BR Dunk&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;D Kalyankrishna&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;DP Nannes&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;GH Vihari&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Ishan Kishan&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;JO Holder&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;KL Rahul&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;M Kaif&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;MF Maharoof&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;MS Bisla&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;P Negi&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;R Bishnoi&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;RP Singh&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;S Kaushik&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;SB Styris&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;SMSM Senanayake&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Swapnil Singh&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;V Sehwag&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Younis Khan&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;A Chopra&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;AC Thomas&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;AR Patel&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;BJ Haddin&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;CM Gautam&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;DJ Thornely&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Gurkeerat Singh&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;IK Pathan&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;JH Kallis&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;KH Pandya&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;LR Shukla&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;MC Juneja&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Mohammad Hafeez&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;OA Shah&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;PV Tambe&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;RJ Harris&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;S Chanderpaul&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Sandeep Sharma&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;SL Malinga&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Sunny Singh&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;UT Khawaja&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Y Venugopal Rao&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;SK Raina&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;AB Barath&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;AN Ghosh&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;BAW Mendis&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;CJ Anderson&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;DH Yagnik&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;DW Steyn&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;HH Gibbs&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;JC Buttler&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Kamran Akmal&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;L Balaji&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;M Vohra&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;ML Hayden&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;NJ Rimmington&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;PJ Cummins&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;R Tewatia&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;RS Sodhi&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;S Tyagi&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Shoaib Ahmed&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;TM Head&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;WA Mota&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;A Ashish Reddy&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;AB McDonald&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Anureet Singh&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;BB Sran&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;CJ McKay&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;DJ Hooda&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;F Behardien&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;HV Patel&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;JDP Oram&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;KB Arun Karthik&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;LA Pomersbach&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;MA Starc&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;MN Samuels&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;NLTC Perera&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;PP Chawla&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;RE Levi&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;S Sreesanth&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;SA Asnodkar&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;SJ Srivastava&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;SS Tiwary&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;U Kaul&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;WPUJC Vaas&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;AA Noffke&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;AM Rahane&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;B Sumanth&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;D Wiese&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;DB Ravi Teja&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;DT Christian&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Harmeet Singh&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;JA Morkel&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;KA Pollard&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;KW Richardson&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;M Rawat&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;MK Pandey&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;ND Doshi&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;PC Valthaty&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;R Sharma&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;RS Bopara&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;RV Uthappa&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Shakib Al Hasan&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;SPD Smith&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;TL Suman&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;VY Mahesh&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;A Flintoff&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;AC Voges&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;AS Rajpoot&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;BJ Hodge&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;CR Brathwaite&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;DJG Sammy&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;GB Hogg&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Imran Tahir&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;JJ Bumrah&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;KJ Abbott&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;LRPL Taylor&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;MD Mishra&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Mohammed Shami&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;P Awana&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Q de Kock&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;RJ Peterson&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;S Sriram&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;SB Bangar&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;SM Harwood&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;SV Samson&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;UT Yadav&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;YA Abdulla&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;AA Bilakhia&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;AJ Finch&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;B Kumar&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;CA Ingram&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;DR Martyn&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;DR Smith&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;J Syed Mohammad&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;JR Hopes&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;KP Pietersen&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;M Morkel&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;MJ Guptill&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;MV Boucher&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;PA Reddy&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;R Ninan&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;RR Raje&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;S Rana&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;SE Bond&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;SP Fleming&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;T Thushara&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;V Kohli&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;VS Malik&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Z Khan&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;A Singh&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;AA Chavan&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;AL Menaria&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;B Laughlin&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;CA Lynn&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;DAJ Bracewell&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;DS Kulkarni&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;H Das&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;J Theron&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;K Goel&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;KS Williamson&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;M Muralitharan&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;MJ Lumb&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Pankaj Singh&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;R Rampaul&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;RR Rossouw&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;S Randiv&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;SE Marsh&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;SP Goswami&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;TD Paine&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;VS Yeligati&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;AB Agarkar&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;AN Ahmed&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;BA Bhatt&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;CH Morris&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;DE Bollinger&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;DT Patil&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Harpreet Singh&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Jaskaran Singh&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;KAJ Roach&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;L Ablish&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;M Vijay&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;MK Tiwary&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;NJ Maddinson&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;PD Collingwood&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;R Shukla&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;RS Gavaskar&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Shivam Sharma&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;SR Tendulkar&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;TM Dilshan&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;W Jaffer&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;AD Russell&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Anirudh Singh&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;BB McCullum&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;CJ Ferguson&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;DJ Bravo&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;EJG Morgan&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;HH Pandya&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;JD Ryder&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Kamran Khan&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;L Ronchi&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;MA Agarwal&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;MM Patel&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;NK Patel&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;PJ Sangwan&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;R Vinay Kumar&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;RT Ponting&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;S Vidyut&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Shoaib Akhtar&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;SS Iyer&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;TM Srivastava&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;A Symonds&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Azhar Mahmood&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;C Madan&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;D Salunkhe&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;DA Warner&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;DP Vijaykumar&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;GJ Bailey&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;J Arunkumar&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Joginder Sharma&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;KM Jadhav&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;M Kartik&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;MG Johnson&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;N Rana&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;P Parameswaran&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;R Dhawan&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;RR Bhatkal&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;S Ladda&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;SB Wagh&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;SN Khan&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;T Henderson&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;VH Zol&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;YS Chahal&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;RG Sharma&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;A Kumble&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;AD Mascarenhas&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;AS Raut&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;BJ Rohrer&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;CRD Fernando&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;DL Vettori&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;GC Smith&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Iqbal Abdulla&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;JJ van der Wath&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;KK Cooper&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;M Ashwin&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;MDKJ Perera&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;MP Stoinis&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;P Dogra&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;R Ashwin&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;RJ Quiney&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;S Gopal&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;SB Jakati&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;SM Katich&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;SW Billings&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;WD Parnell&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Yashpal Singh&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Abdur Razzak&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;AP Dole&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;BCJ Cutting&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;CH Gayle&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;CK Kapugedera&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;DJ Hussey&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;F du Plessis&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;I Malhotra&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;JDS Neesham&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;KC Cariappa&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;LJ Wright&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Mandeep Singh&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;MN van Wyk&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;NM Coulter-Nile&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;PP Ojha&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;RE van der Merwe&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;S Anirudha&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;SA Yadav&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;SR Watson&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;ST Jayasuriya&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;UA Birla&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;X Thalaivan Sargunam&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;AA Jhunjhunwala&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;AM Nayar&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;B Lee&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;CA Pujara&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;DB Das&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;DS Lehmann&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Harbhajan Singh&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;J Yadav&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;K Upadhyay&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;KV Sharma&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;M Ntini&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;MJ McClenaghan&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;N Saini&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Parvez Rasool&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;R Sathish&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;S Sohal&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Shahid Afridi&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;SP Narine&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;TG Southee&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;VVS Laxman&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;A Mukund&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;A Uniyal&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;AG Murtaza&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;B Akhil&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;C Munro&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;DPMD Jayawardene&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;GJ Maxwell&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;J Botha&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;JP Duminy&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;KMDN Kulasekara&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;M Klinger&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Misbah-ul-Haq&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;MS Gony&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;P Sahu&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;R Dravid&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;RR Pant&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;S Nadeem&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;SC Ganguly&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;SN Thakur&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;T Kohli&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;VR Aaron&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Yuvraj Singh&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;S Dhawan&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;A Chandila&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;AC Blizzard&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;AP Majumdar&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;BE Hendricks&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;CK Langeveldt&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;DJ Jacobs&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;FH Edwards&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;I Sharma&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;JE Taylor&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;KC Sangakkara&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;LMP Simmons&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Mashrafe Mortaza&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Mohammad Ashraful&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;NS Naik&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;PR Shah&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;RG More&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;S Aravind&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Sachin Baby&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;SK Trivedi&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;STR Binny&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;UBT Chand&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Y Gnaneswara Rao&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Runs scored by match'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (IPL_Ball_by_Ball)' name='federated.14dhc621g5umht1a58ypb1s5ygc5' />
+          </datasources>
+          <datasource-dependencies datasource='federated.14dhc621g5umht1a58ypb1s5ygc5'>
+            <column caption='Match Id' datatype='integer' name='[Match_Id]' role='dimension' type='ordinal' />
+            <column caption='Runs Scored' datatype='integer' name='[Runs_Scored]' role='measure' type='quantitative' />
+            <column caption='Team Name' datatype='string' name='[Team_Name]' role='dimension' type='nominal' />
+            <column-instance column='[Match_Id]' derivation='None' name='[none:Match_Id:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Team_Name]' derivation='None' name='[none:Team_Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Runs_Scored]' derivation='Sum' name='[sum:Runs_Scored:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='width' field='[federated.14dhc621g5umht1a58ypb1s5ygc5].[sum:Runs_Scored:qk]' value='60' />
+            <format attr='height' field='[federated.14dhc621g5umht1a58ypb1s5ygc5].[none:Team_Name:nk]' value='80' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.14dhc621g5umht1a58ypb1s5ygc5].[none:Team_Name:nk]' value='66' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.14dhc621g5umht1a58ypb1s5ygc5].[none:Team_Name:nk]' />
+              <text column='[federated.14dhc621g5umht1a58ypb1s5ygc5].[sum:Runs_Scored:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='1.5492265224456787' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minheight' value='572' />
+                <format attr='maxheight' value='572' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.14dhc621g5umht1a58ypb1s5ygc5].[sum:Runs_Scored:qk]</rows>
+        <cols>([federated.14dhc621g5umht1a58ypb1s5ygc5].[none:Match_Id:ok] / [federated.14dhc621g5umht1a58ypb1s5ygc5].[none:Team_Name:nk])</cols>
+      </table>
+      <simple-id uuid='{E093F712-884D-4967-853E-B49B3BC659C1}' />
+    </worksheet>
+    <worksheet name='Runs scored per match per player'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (IPL_Ball_by_Ball)' name='federated.14dhc621g5umht1a58ypb1s5ygc5' />
+          </datasources>
+          <datasource-dependencies datasource='federated.14dhc621g5umht1a58ypb1s5ygc5'>
+            <column caption='Match Id' datatype='integer' name='[Match_Id]' role='dimension' type='ordinal' />
+            <column caption='Player Name' datatype='string' name='[Player_Name]' role='dimension' type='nominal' />
+            <column caption='Runs Scored' datatype='integer' name='[Runs_Scored]' role='measure' type='quantitative' />
+            <column caption='Team Name' datatype='string' name='[Team_Name]' role='dimension' type='nominal' />
+            <column-instance column='[Match_Id]' derivation='None' name='[none:Match_Id:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Player_Name]' derivation='None' name='[none:Player_Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Team_Name]' derivation='None' name='[none:Team_Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Runs_Scored]' derivation='Sum' name='[sum:Runs_Scored:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.14dhc621g5umht1a58ypb1s5ygc5].[none:Team_Name:nk]' value='39' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.14dhc621g5umht1a58ypb1s5ygc5].[none:Player_Name:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.14dhc621g5umht1a58ypb1s5ygc5].[sum:Runs_Scored:qk]</rows>
+        <cols>([federated.14dhc621g5umht1a58ypb1s5ygc5].[none:Match_Id:ok] / [federated.14dhc621g5umht1a58ypb1s5ygc5].[none:Team_Name:nk])</cols>
+      </table>
+      <simple-id uuid='{7E61645D-B0A4-4F49-B987-924315931E80}' />
+    </worksheet>
+    <worksheet name='Scoring style per match'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (IPL_Ball_by_Ball)' name='federated.14dhc621g5umht1a58ypb1s5ygc5' />
+          </datasources>
+          <datasource-dependencies datasource='federated.14dhc621g5umht1a58ypb1s5ygc5'>
+            <column caption='Match Id' datatype='integer' name='[Match_Id]' role='dimension' type='ordinal' />
+            <column caption='Runs Scored' datatype='integer' name='[Runs_Scored]' role='measure' type='quantitative' />
+            <column caption='Team Name' datatype='string' name='[Team_Name]' role='dimension' type='nominal' />
+            <column-instance column='[Match_Id]' derivation='None' name='[none:Match_Id:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Runs_Scored]' derivation='None' name='[none:Runs_Scored:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Team_Name]' derivation='None' name='[none:Team_Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Runs_Scored]' derivation='Sum' name='[sum:Runs_Scored:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.14dhc621g5umht1a58ypb1s5ygc5].[sum:Runs_Scored:qk]' included-values='non-null' />
+          <slices>
+            <column>[federated.14dhc621g5umht1a58ypb1s5ygc5].[sum:Runs_Scored:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='height' field='[federated.14dhc621g5umht1a58ypb1s5ygc5].[none:Team_Name:nk]' value='52' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.14dhc621g5umht1a58ypb1s5ygc5].[none:Team_Name:nk]' value='62' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='height' field='[federated.14dhc621g5umht1a58ypb1s5ygc5].[none:Match_Id:ok]' value='10' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.14dhc621g5umht1a58ypb1s5ygc5].[none:Runs_Scored:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minheight' value='600' />
+                <format attr='maxheight' value='600' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.14dhc621g5umht1a58ypb1s5ygc5].[sum:Runs_Scored:qk]</rows>
+        <cols>([federated.14dhc621g5umht1a58ypb1s5ygc5].[none:Match_Id:ok] / [federated.14dhc621g5umht1a58ypb1s5ygc5].[none:Team_Name:nk])</cols>
+      </table>
+      <simple-id uuid='{CA636996-A729-441E-84AC-9811CDCA632F}' />
+    </worksheet>
+    <worksheet name='Team vs scoring style per match'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (IPL_Ball_by_Ball)' name='federated.14dhc621g5umht1a58ypb1s5ygc5' />
+          </datasources>
+          <datasource-dependencies datasource='federated.14dhc621g5umht1a58ypb1s5ygc5'>
+            <column caption='Match Id' datatype='integer' name='[Match_Id]' role='dimension' type='ordinal' />
+            <column caption='Runs Scored' datatype='integer' name='[Runs_Scored]' role='measure' type='quantitative' />
+            <column caption='Team Name' datatype='string' name='[Team_Name]' role='dimension' type='nominal' />
+            <column-instance column='[Match_Id]' derivation='None' name='[none:Match_Id:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Runs_Scored]' derivation='None' name='[none:Runs_Scored:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Team_Name]' derivation='None' name='[none:Team_Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Runs_Scored]' derivation='Sum' name='[sum:Runs_Scored:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.14dhc621g5umht1a58ypb1s5ygc5].[none:Runs_Scored:qk]' included-values='non-null' />
+          <slices>
+            <column>[federated.14dhc621g5umht1a58ypb1s5ygc5].[none:Runs_Scored:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.14dhc621g5umht1a58ypb1s5ygc5].[none:Match_Id:ok]' />
+              <text column='[federated.14dhc621g5umht1a58ypb1s5ygc5].[sum:Runs_Scored:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.51574587821960449' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.14dhc621g5umht1a58ypb1s5ygc5].[sum:Runs_Scored:qk]</rows>
+        <cols>(([federated.14dhc621g5umht1a58ypb1s5ygc5].[none:Match_Id:ok] / [federated.14dhc621g5umht1a58ypb1s5ygc5].[none:Team_Name:nk]) * [federated.14dhc621g5umht1a58ypb1s5ygc5].[none:Runs_Scored:qk])</cols>
+      </table>
+      <simple-id uuid='{23346BF1-6B9D-4E71-BDA9-DAB685A116CB}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='Team vs scoring style per match'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.14dhc621g5umht1a58ypb1s5ygc5].[none:Match_Id:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.14dhc621g5umht1a58ypb1s5ygc5].[ctd:Runs_Scored:qk]</field>
+            <field>[federated.14dhc621g5umht1a58ypb1s5ygc5].[none:Match_Id:ok]</field>
+            <field>[federated.14dhc621g5umht1a58ypb1s5ygc5].[none:Runs_Scored:qk]</field>
+            <field>[federated.14dhc621g5umht1a58ypb1s5ygc5].[none:Team_Name:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{163BB234-2C9A-4511-ACF2-303E02038E97}' />
+    </window>
+    <window class='worksheet' name='Runs scored by match'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.14dhc621g5umht1a58ypb1s5ygc5].[none:Team_Name:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.14dhc621g5umht1a58ypb1s5ygc5].[none:Match_Id:ok]</field>
+            <field>[federated.14dhc621g5umht1a58ypb1s5ygc5].[none:Team_Name:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{B5E2727F-7505-4E19-8920-08138EC21282}' />
+    </window>
+    <window class='worksheet' name='Runs scored per match per player'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.14dhc621g5umht1a58ypb1s5ygc5].[none:Player_Name:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.14dhc621g5umht1a58ypb1s5ygc5].[none:Match_Id:ok]</field>
+            <field>[federated.14dhc621g5umht1a58ypb1s5ygc5].[none:Player_Name:nk]</field>
+            <field>[federated.14dhc621g5umht1a58ypb1s5ygc5].[none:Team_Name:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{93A7E7A6-3C16-44ED-85F5-FF250C209F20}' />
+    </window>
+    <window class='worksheet' name='Scoring style per match'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.14dhc621g5umht1a58ypb1s5ygc5].[none:Runs_Scored:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.14dhc621g5umht1a58ypb1s5ygc5].[none:Match_Id:ok]</field>
+            <field>[federated.14dhc621g5umht1a58ypb1s5ygc5].[none:Runs_Scored:qk]</field>
+            <field>[federated.14dhc621g5umht1a58ypb1s5ygc5].[none:Team_Name:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{D4494D7A-EBEA-44CC-A4F5-57CF7F8ADECC}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Runs scored by match' width='192'>
+      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
+      FItFbt68yb/8y79gmib5fJ56vX7e8r7RHDFAsVRl5vJlxkbEQNhZcefOHdxuN8FgkF/96ld8
+      //vfp1qtEolECAQC5y3vG80RAwwND1HM5SiVq+eh58LhOA6ffvopKysrfPbZZxiGQTKZ5Msv
+      v6RUKrXVJ760tMTf/M3foGkaP//5z8nn83z00Uf81V/9Fblcrot78fXlyEOwx6sSCoXIpJJw
+      R/TydBtJknj//fd5//33D62/caP9eYVnZmZYXV3F4/Fw48YNDMOg0WjQarWwTjDY9U3msAEc
+      h3Ihy+bmJt7Iy25Q29R5OPeUu3dus7m2RLlhcXlqhKXVdUYmLpGIist0O9jlbaxs+zPOy+Fh
+      lIE3/1GyLAtd1zFNE13X0XWdVqvF7du3yWQyDA6K29pXOWSA9OYC9xc2wNaR5Ze1X2zbxuVW
+      cIDxyRlaTxbY3N7l8s1bbC6vEg/P4jgOlmVhnWB2j9P+K2XbNpZldT6zy/Pt95dP2M4LPebq
+      P6P/8j+33Y5y/ad4f/8/vfH3y8vLBINBNjc3aTabpFIpPvjgA7a3t7l79+6R47t/fE4xZjKd
+      DTtalg0HjtFZccgApVwabyDMxtIc967eefkhj4pL2dut1aVnDEzNUktvYRoGtiO9MkFG56kQ
+      pz0xwotqFZ0OLB6drOFkE2S81HM6E3a8yvXr1/dfYp+Zmdlf/6a//C/02CcobHZaMZNlGQ4c
+      o7PikAFmbn2X2HiV3/72Xdzel1UhGpUCzUaLzZ0kpmmR3NxiZnacjdVVRqdeSYU4wSh2z6VC
+      SNIhTR3Lk04vFeLg9slKib9/0n6JwYFgiJ/eurvf3kkSWL5RqRBur4+BAd+RD/nDcd5993kq
+      xNjLwqbXOnhQE5wehmWRq7efju7uoYS880YUxxVcaIQBBBcaYQDBhUYYQNDz2LbNP/7jP1Iq
+      lVhYWODv/u7vaDQa/P3f//2Jp1sSBhD0PJZlEYvFaDQa7O7ucu/ePf76r/+ab3/726RSqRO1
+      LQwg6Hncbjd+vx/Yewe52WyiqirNZvPE7w8LAwh6nnq9zvr6OouLi1y7do2VlRV+8pOfsLq6
+      euKK1ccqxK43Knz0yX1+/0c/YP7BfRqmxNRoH9uZIuHYIJenRJl0QfcIBAL85Cc/2V+emNgr
+      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
+      SUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Runs scored per match per player' width='192'>
+      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
+      ZrNt21epAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Scoring style per match' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Team vs scoring style per match' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
